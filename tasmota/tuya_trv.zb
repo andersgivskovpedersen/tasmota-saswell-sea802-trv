@@ -1,0 +1,18 @@
+#Z2Tv1
+# Saswell SEA802 radiator valves (Tuya TS0601), two firmware batches
+# Upload to the Tasmota file system, then: ZbLoad tuya_trv.zb
+# Reverse-engineered, see README. Use at your own risk.
+:TS0601,_TZE284_3yp57tby
+:TS0601,_TZE200_3yp57tby
+EF00/0266=0201/0000,mul:10
+EF00/0267=0201/0012,mul:10
+EF00/0403,Heating
+EF00/016C,ScheduleEnabled
+EF00/0569,BatteryLow
+EF00/021B,TempCalibration
+EF00/0128,ChildLock
+EF00/0108,WindowDetection
+EF00/010A,FrostProtection
+EF00/0182,ScaleProtection
+EF00/0165,Dp101
+EF00/016A,AwayMode
